@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: "/ecom", // your repo name
-  assetPrefix: "/ecom/",
+  //basePath: "/ecom", // your repo name these 2 lines are for github pages for other hosting remove it
+  //assetPrefix: "/ecom/",
 
   images: {
     unoptimized: true,
