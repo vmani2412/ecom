@@ -2,7 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  
+  basePath: "/ecom", // your repo name
+  assetPrefix: "/ecom/",
+
+  images: {
+    unoptimized: true,
+  },
   /* config options here */
     async rewrites() {
         return [
