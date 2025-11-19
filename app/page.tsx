@@ -6,7 +6,6 @@ export default function Home() {
     <div className="flex">
       <div className="menu-item">
         <Link href={`/dashboard/`}>Dashboard</Link>
-        <Link href={`/login/`}>Login</Link>
         <Link href={`/register/`}>Register</Link>
       </div>
       <div className="Login">
